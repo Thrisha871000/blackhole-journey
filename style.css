@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0b0c10;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: #ffffff;
+  padding: 2rem;
+}
+.hero h1 {
+  color: #000000;
+}
+.hero .hook {
+  font-size: 1.2rem;
+  color: #000000;
+}
+.hero-image {
+  max-width: 400px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+  color: #130000;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 20px;
+}
+
+/* Images */
+.diagram {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1f2833;
+  color: #66fcf1;
+}
+
+
+
+
+
+
+
+
+
+ .navbar {
+            border: 2px solid #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            box-shadow: 0 2px 8px black;
+            background-color: #ffffff;
+            
+          
+        }
+
+       
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fc8019; 
+        }
+
+       
+        .menu a {
+            text-decoration: none;
+            color: #000000;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .menu a:hover {
+            color: #de7015;
+        }
+
+        
+        .login button {
+            padding: 8px 15px;
+            border: 1px solid #ff5005;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            
+        }
+
+        .login button:hover {
+            background-color: #fc7404;
+            color: white;
+            border-radius: 10px;
+        }
