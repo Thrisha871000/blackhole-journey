@@ -198,7 +198,7 @@ button:hover {
   padding: 15px 40px;
   box-shadow: 0 2px 8px black;
   background-color: #ffffff;
-  position: fixed;
+  position:fixed;
   top: 0px;
   left: 0px;
   width: 100%;             
@@ -250,3 +250,82 @@ button:hover {
       background-color: #f0f0f0;
       margin-top: 40px;
     }
+    /* ================= MOBILE RESPONSIVENESS FIX ================= */
+@media (max-width: 768px) {
+
+  /* Fix overall spacing */
+  section {
+    margin: 20px 10px;
+  }
+
+  body {
+    margin: 10px;
+  }
+
+  /* Center all text properly */
+  p, h1, h2, h3, li {
+    text-align: left;
+  }
+
+  /* Fix navbar layout */
+  .navbar {
+    padding: 10px;
+  }
+
+  .menu {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    display: inline-block;
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  /* Fix images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Fix diagram images */
+  .diagram {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Fix table overflow */
+  .blackhole-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Fix video */
+  .video-container iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Fix quiz box */
+  .quiz-box {
+    width: 100%;
+  }
+
+  /* Fix grid spacing */
+  .blackhole-grid {
+    margin: 120px 10px 20px;
+  }
+
+  /* Fix footer text */
+  footer ul {
+    padding: 0;
+  }
+}
+.overview-text,
+section p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+    
