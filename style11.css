@@ -328,4 +328,14 @@ section p {
   text-align: justify;
   text-justify: inter-word;
 }
+/* Auto hint animation (runs once) */
+@keyframes hintFlip {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+.box.hint .box-inner {
+  animation: hintFlip 2s ease-in-out;
+}
     

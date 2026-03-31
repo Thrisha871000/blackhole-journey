@@ -1,4 +1,12 @@
+window.addEventListener("load", () => {
+  const boxes = document.querySelectorAll(".box");
 
+  boxes.forEach((box, index) => {
+    setTimeout(() => {
+      box.classList.add("hint");
+    }, index * 300); // small delay for each card
+  });
+});
 function checkAnswers() {
   let score = 0;
 
