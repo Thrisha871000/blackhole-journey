@@ -1,3 +1,8 @@
+document.querySelectorAll(".box").forEach(box => {
+  box.addEventListener("click", () => {
+    box.classList.toggle("flip");
+  });
+});
 window.addEventListener("load", () => {
   const boxes = document.querySelectorAll(".box");
 

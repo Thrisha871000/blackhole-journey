@@ -155,7 +155,7 @@ button:hover {
   transform-style: preserve-3d;
 }
 
-.box:hover .box-inner {
+.box.flip .box-inner {
   transform: rotateY(180deg);
 }
 
